@@ -1,0 +1,106 @@
+* {box-sizing: border-box;}
+h1 {
+	text-align: center;
+	font-weight: bold;
+	
+
+}
+
+section {
+	background-color: gray;
+	border: 2px solid black;
+	padding: 20px;
+	
+	position: relative;
+
+}
+#beef{
+	text-align: center;
+	font-size: 1.4em;
+	font-weight: bold;
+	}
+#sushi {
+	text-align: center;
+	font-size: 1.4em;
+	font-weight: bold;
+	
+
+}
+#chicken {text-align: center;
+	font-size: 1.4em;
+	font-weight: bold;
+	
+}
+
+#header-nav { background-color: gray;
+border-radius: 0;
+border: 0;
+padding: 0;
+}
+#navbar-header, h2 {
+  color: white;
+  margin-top: 15px;
+  font-size: 3em;
+  font-weight: bold;
+}
+#navbar-header, h2, a:hover {
+	text-decoration: none;
+}
+.container {
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  
+  margin-bottom: 10px;
+  padding: 10px;
+}
+#navbar-header, button {
+	background-color: white;
+}
+
+.row {width: 100%;
+padding-left:30px;}
+@media (min-width: 768px) and (max-width: 991px) {
+	.row {
+		padding-left: 30px;
+	}
+}
+@media (max-width: 767px) {
+  /* Header */
+  .row {
+  	
+  	padding-left: 30px;
+  }
+  button {
+  	clear: both;
+  }
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+.nav-header {
+  background-color: #FFFFFF;
+}
+
+.nav-brand {
+  color: #FFFFFF;
+  font-size: 1.5em;
+}
+
+#nav-list {
+  color: white;
+}
+
+hr {
+  border-color: white;
+}
+
+.item {
+  color: white;
+  font-size: 1.2em;
+}
